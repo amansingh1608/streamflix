@@ -1,0 +1,1063 @@
+<html>
+<head>
+		<title> streamflix </title>		
+		<link type="text/css" rel="stylesheet" href="css\movies.css">		
+</head>
+<body bgcolor="black">
+
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="moviespage.html">Home</a>
+  <a href="action.html">Action</a>
+  <a href="romance.html">Romance</a>
+  <a href="thrill.html">Thrill</a>
+  <a href="hollywood.html"> Hollywood </a>
+  <a href="bollywood.html"> Bollywood </a>  
+  <a href="comedy.html"> Comedy </a>  
+</div>
+
+
+
+
+<div class="topnav">
+ <a><span onclick="openNav()"> <img src="image\sidenav.gif" height=40px width=60px> </span> </a> 
+  <a href="moviespage.html">Home</a>
+  <a href="https://www.imdb.com/"> News </a>
+  <a href="#contact">Contact</a>
+  <a href="about.html">About</a> 
+</div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "black";
+}
+</script>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 12</div>
+  <img src="image\movie banner\1.jpg"  height=300px style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 12</div>
+  <img src="image\movie banner\2.jpg" height=300px style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 12</div>
+  <img src="image\movie banner\4.jpg" height=300px style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 12</div>
+  <img src="image\movie banner\5.jpg" height=300px style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 12</div>
+  <img src="image\movie banner\6.jpg" height=300px style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 12</div>
+  <img src="image\movie banner\7.jpg" height=300px style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 12</div>
+  <img src="image\movie banner\8.jpg" height=300px style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 12</div>
+  <img src="image\movie banner\9.jpg" height=300px style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 12</div>
+  <img src="image\movie banner\10.jpg" height=300px style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 12</div>
+  <img src="image\movie banner\11.jpg" height=300px style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11/ 12</div>
+  <img src="image\movie banner\12.jpg" height=300px style="width:100%">  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12/ 12</div>
+  <img src="image\movie banner\13.jpg" height=300px style="width:100%">  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+
+
+
+<br> <br> <br> <br>
+
+
+
+
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/deadpool.html">
+	<img src="image/deadpool.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">Deadpool</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/thorragnarok.html">
+	<img src="image/thorragnarok.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text"> Thor ragnarok </div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/civilwar.html">	
+	<img src="image/civilwar.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Captain america:civil war</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/homecoming.html">
+	<img src="image/homecoming.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">spider-man homecoming </div>
+	</div>
+	</div>
+</td>	
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/ca1.html">
+	<img src="image/ca1.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Captain america:First avenger</div>
+	</div>
+	</div>
+</td>
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/thor1.html">
+	<img src="image/thor1.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">THOR 1</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/guardians.html">
+	<img src="image/guardians1.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Guardians of the galaxy</div>
+	</div>
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/ultron.html">
+	<img src="image/ultron.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Avengers:age of ultron</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/infinitywar.html">
+	<img src="image/infinitywar.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Avnegers:Infinity war</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/thordarkworld.html">
+	<img src="image/thordarkworld.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Thor:the dark world</div>
+	</div>
+	</div>
+</td>
+
+  
+<td>
+	<div class="container">
+	<a href="videopage/strange.html">
+	<img src="image/strange.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Doctor strange</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+<div class="container">
+	<a href="videopage/blackpanther.html">
+	<img src="image/blackpanther.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Black panther</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+<div class="container">
+	<a href="videopage/ant man.html">
+	<img src="image/ant man.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Ant Man</div>
+	</div>
+	</div>
+</td>
+
+<td>
+<div class="container">
+	<a href="videopage/ironman3.html">
+	<img src="image/ironman3.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Iron man 3</div>
+	</div>
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/hulk.html">
+	<img src="image/hulk.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">The incredible hulk</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/300.html">
+	<img src="image/300.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text"> 300 BC Rise of empire </div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/fast7.html">	
+	<img src="image/fast7.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Fast and furious 7</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/guardians2.html">
+	<img src="image/guardians2.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Guardians of the galaxy 2 </div>
+	</div>
+	</div>
+</td>	
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/padmaavat.html">
+	<img src="image/padmavat.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Padmaavat</div>
+	</div>
+	</div>
+</td>
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/padman.html">
+	<img src="image/padman.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Padman</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/mainterahero.html">
+	<img src="image/mein tera hero.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Main tera hero</div>
+	</div>
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/hp1.html">
+	<img src="image/hp1.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">Harry potter 1</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/hp2.html">
+	<img src="image/hp2.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text"> Harry potter 2 </div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/hp3.html">	
+	<img src="image/hp3.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Harry potter 3</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/hp4.html">
+	<img src="image/hp4.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Harry potter 4</div>
+	</div>
+	</div>
+</td>	
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/hp5.html">
+	<img src="image/hp5.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Harry potter 5</div>
+	</div>
+	</div>
+</td>
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/hp6.html">
+	<img src="image/hp6.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Harry potter 6</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/hp7.html">
+	<img src="image/hp7.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Harry potter 7</div>
+	</div>
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/dawnofjustice.html">
+	<img src="image/batman vs superman.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">Batman VS superman</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/fast6.html">
+	<img src="image/fast6.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text"> Fast and furious 6 </div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/batmanbegins.html">	
+	<img src="image/batman begins 2005.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Batman begins 2005</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/bahubali.html">
+	<img src="image/bahubali.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Bahubali </div>
+	</div>
+	</div>
+</td>	
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/hacksawridge.html">
+	<img src="image/hacksaw_ridge.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Hacksaw Ridge</div>
+	</div>
+	</div>
+</td>
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/dilwale.html">
+	<img src="image/dilwale.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Dilwale</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/dearzindagi.html">
+	<img src="image/dear zindagi.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Dear zindagi</div>
+	</div>
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/force2.html">
+	<img src="image/Force-2.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">Force 2</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/halfgirlfriend.html">
+	<img src="image/half girlfriend .jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text"> Half girlfriend </div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/jolly2.html">	
+	<img src="image/jolly llb 2.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Jolly LLB 2</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/judwaa2.html">
+	<img src="image/judwaa 2.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Judwaa 2</div>
+	</div>
+	</div>
+</td>	
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/justice.html">
+	<img src="image/justice league.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text"> Justice league </div>
+	</div>
+	</div>
+</td>
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/kaabil.html">
+	<img src="image/kaabil.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Kaabil</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/mohenjodaro.html">
+	<img src="image/mohenjodaro1.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Mohenjodaro</div>
+	</div>
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/pink.html">
+	<img src="image/pink.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">Pink</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/raees.html">
+	<img src="image/raees.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text"> Raees </div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/rocky.html">	
+	<img src="image/rocky handsom.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Rocky handsome</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/rustom.html">
+	<img src="image/rustom.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Rustom</div>
+	</div>
+	</div>
+</td>	
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/sanamre.html">
+	<img src="image/sanam re .jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text"> Sanam re </div>
+	</div>
+	</div>
+</td>
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/sonu.html">
+	<img src="image/sonu ke titu ki sweety.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text"> Sonu ke titu ki sweety </div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/suicidesquad.html">
+	<img src="image/suicide squad.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Suicide squad</div>
+	</div>
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/conjuring2.html">
+	<img src="image/the conjuring 2.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">The conjuring 2</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/darknight.html">
+	<img src="image/dark1.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text"> The Dark Knight 2008 </div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/darknightrises.html">	
+	<img src="image/dark2.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">The dark Knight Rises</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/conjuring.html">
+	<img src="image/conjuring.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text"> The conjuring </div>
+	</div>
+	</div>
+</td>	
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/idiots.html">
+	<img src="image/3 idiots.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">3 Idiots</div>
+	</div>
+	</div>
+</td>
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/adhm.html">
+	<img src="image/ae dil hai mushkil.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Ae dil hai mushkil</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/baghi2.html">
+	<img src="image/baghi2 poster.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Baaghi 2</div>
+	</div>
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/badlapur.html">
+	<img src="image/badlapur.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">Badlapur</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/badri.html">
+	<img src="image/badrinath ki dhulania.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text"> Badrinath ki dulhania </div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/bahubali2.html">	
+	<img src="image/Bahubali-2.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Bahubali 2</div>
+	</div>
+	</div>
+</td>
+
+<td>
+	<div class="container">
+	<a href="videopage/fast5.html">
+	<img src="image/fast5.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Fast and Furious 5 </div>
+	</div>
+	</div>
+</td>	
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/heropanti.html">
+	<img src="image/heropanti.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Heropanti</div>
+	</div>
+	</div>
+</td>
+
+
+
+<td>
+	<div class="container">
+	<a href="videopage/thor1.html">
+	<img src="image/thor1.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">THOR 1</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/guardians.html">
+	<img src="image/guardians1.jpg" class="image">
+	</a>
+	<div class="middle">
+    <div class="text">Guardians of the galaxy</div>
+	</div>
+	</div>
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+<table style="width:100%" cellspacing="0" >
+<tr>
+<td>
+	<div class="container">
+	<a href="videopage/fault.html">
+	<img src="image/fault.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">The Fault in our stars</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/fsog.html">
+	<img src="image/fsog.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">Fifty shades of grey</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/fsd.html">
+	<img src="image/fsd.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">Fifty shades darker</div>
+	</div>
+	</div>
+</td>
+
+
+<td>
+	<div class="container">
+	<a href="videopage/fsf.html">
+	<img src="image/fsf.jpg" class="image" >
+	</a>
+	<div class="middle">
+    <div class="text">Fifty shades freed</div>
+	</div>
+	</div>
+</td>
+
+<td>
+<div class="container">
+</div>
+</td>
+
+<td>
+<div class="container">
+</div>
+</td>
+
+<td>
+<div class="container">
+</div>
+</td>
+
+</tr>
+</table>
+
+
+
+
+
+
+
+
+	
+  
+</div>
+</body>
+</html>

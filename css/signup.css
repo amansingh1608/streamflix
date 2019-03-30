@@ -1,0 +1,80 @@
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  height:100%;
+  position: absolute;
+  margin: auto;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.image
+{width:1360px;
+height:600px;
+	opacity:0.4;}
+
+.container
+{height:600px;
+width:500px;
+margin-left:83%;
+margin-right:50%;
+background-color:white;
+border-radius:10px;
+}
+
+
+
+
+
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+	border-radius:25px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+a{text-decoration:none;}

@@ -1,0 +1,110 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css\about.css">	
+<title>
+About
+</title>
+<body bgcolor="black">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="moviespage.html">Home</a>
+  <a href="action.html">Action</a>
+  <a href="romance.html">Romance</a>
+  <a href="thrill.html">Thrill</a>
+  <a href="hollywood.html"> Hollywood </a>
+  <a href="bollywood.html"> Bollywood </a>  
+  <a href="comedy.html"> Comedy </a>  
+</div>
+
+
+
+
+<div class="topnav">
+ <a><span onclick="openNav()"> <img src="https://cdn.dribbble.com/users/87229/screenshots/2265620/awesome_burger.gif" height=40px width=60px> </span> </a> 
+  <a href="moviespage.html">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a> 
+</div>
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "black";
+}
+</script>
+
+<h1> <font size="50px" face="calibri" color="white"> About: </font> </h1>
+
+<p> <font face="calibri" color="white" size="4px"> This Project was developed by Aman Singh and Raghav Vasudeva as a project which was a part of curiculum of institutional summer training. This project is based on video streaming service which we decided to call as streamflix. streamflix basically is an online platform to view various movies and TV show at one place so that user may find accessing all facilites and contents very easy.  <br>
+
+ 
+
+in simple words: <br>
+
+Streamflix is an online streaming service that allows our customers to watch a wide variety of award winning TV shows, movies, documentaries on thousands of internet connected devices. With Streamflix, you can enjoy unlimited viewing of our content without having to watch a single commercial. There’s always something new to discover, and more TV shows and movies will be added time to time as they Release.
+
+Our project is inspired from online streaming services like: <br>
+
+1.      Netflix <br> 
+
+2.      Amazon Prime <br>
+
+3.      Hd Popcorn <br>
+
+4.      Popcorn Time <br> <br> <br> <br <br> <br> <br> <br> <br> <br> <br>
+
+ </font></p>
+ <br> <br>
+ <center>
+ <table cellspacing="20px">
+ <tr>
+ <td>
+ <div class="card1">
+  <img src="image\Screenshot (40).png" style="width:100%">
+  <h1>Aman singh</h1>
+  <p class="title">Student</p>
+  <p>Chandigarh University</p>
+  
+ <p><button onclick="button1()">Contact</button></p>
+</div>
+</td>
+
+
+
+<td>
+ 
+<div class="card2">
+  <img src="image\raghav.jpg"  style="width:100%" height="311px">
+  <h1>Raghav Vasudeva</h1>
+  <p class="title">Student</p>
+  <p>Chandigarh University</p>
+ 
+ <p><button onclick="button2()">Contact</button></p>
+</div>
+</td>
+</tr>
+</table>
+</center>
+
+
+<script>
+function button1() {
+    alert("you can contact Aman at 8082132010!");
+}
+function button2() {
+    alert("you can contact Raghav at 8045985488!");
+}
+</script>
+
+</body>
+</html>

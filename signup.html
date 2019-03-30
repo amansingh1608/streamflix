@@ -1,0 +1,117 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css\signup.css" >
+<title>
+Signup
+</title>
+</head>
+<body bgcolor="black">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="image">
+  <img src="image\avengerss.jpg" >
+  </div>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+
+<div class="image">  
+  <img src="image\justices.jpg">
+  </div>
+  
+</div>
+
+<div class="mySlides fade">
+
+<div class="image">  
+  <img src="image\thors.jpg">  
+  </div>
+</div>
+
+<div class="mySlides fade">
+<div class="image">  
+  <img src="image\avengerss2.jpg">
+  </div>
+ </div>
+  
+  <div class="mySlides fade">
+<div class="image">  
+  <img src="image\homecomings.jpg">  
+  </div>
+</div>
+  
+</div>
+
+
+
+
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  </div>
+
+
+  
+  <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+
+
+<div class="slideshow-container">
+
+
+<div class="container">
+<br> 
+<h1> <center>  <font face="calibri" size="40px"> <b> Sign up </font> </center></b> </h1> <br> 
+<form action="signup.php" method="post">
+
+
+    <label for="uname"><b> &nbsp &nbsp &nbsp Username: </font></b></label>
+  <center>  <input type="text" placeholder="Enter Username" name="username" required> </center> 
+  
+  <label for="uname"><b> &nbsp &nbsp &nbsp Email: </font></b></label>
+  <center>  <input type="text" placeholder="Enter Email" name="email" required> </center> 
+  
+  <label for="psw"><b> &nbsp &nbsp &nbsp Password:</b></label>
+  <center>  <input type="password" placeholder="Enter Password" name="password" required> </center> 
+  
+  <label for="psw"><b> &nbsp &nbsp &nbsp  Repeat Password:</b></label>
+  <center>  <input type="password" placeholder="Repeat Password" name="rpassword" required> </center>
+  
+ <br> <br>
+   &nbsp  &nbsp &nbsp &nbsp &nbsp <button type="submit">  <font color="white" size="3" > Register </font> </button>
+  &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp &nbsp <a href="login.html"> <font color="grey" face="calibri">  I am already a member  </font> </a>
+  </form>
+
+
+
+</div>
+</div>
+</body>
+</html>
