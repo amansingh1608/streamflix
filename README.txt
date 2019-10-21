@@ -1,4 +1,4 @@
-Start to view this project from intro file
+For more details regarding this project start viewing the repo. from the intro. file.
 
 
 Made  by:-
